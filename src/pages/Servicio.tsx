@@ -2,7 +2,6 @@ import "../css/Servicio.css";
 import armoire from "../assets/servicio/Armoire-elct.jpg";
 import bomba from "../assets/servicio/bomba.jpg";
 import sistema from "../assets/servicio/descarga.jpeg";
-import tablero from "../assets/servicio/Tablero.jpg";
 import irrigazione from "../assets/servicio/660ec9e6bea7d236867504-Irrigazione_goccia.jpg";
 import fertiirrigacion from "../assets/servicio/IMG_20200407_160325_1.jpg";
 
