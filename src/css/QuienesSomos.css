@@ -1,0 +1,33 @@
+.quienes-somos {
+  padding: 1rem 3rem;
+  background: linear-gradient(135deg, #ffffff 0%, #3855f9 100%);
+  min-height: 85vh;
+
+  .quienes-somos-text {
+    font-weight: bolder;
+    padding-right: 30rem;
+  }
+
+  .quienes-somos-middle-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2.5rem;
+
+    .quienes-somos-list {
+      ul {
+        margin-left: 2rem;
+      }
+
+      img {
+        width: 45rem;
+        height: 25rem;
+        object-fit: cover;
+        margin-top: 2rem;
+      }
+    }
+
+    img {
+      width: 60rem;
+    }
+  }
+}

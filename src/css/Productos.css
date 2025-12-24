@@ -1,0 +1,1108 @@
+.productos {
+  padding: 1rem 3rem;
+  background: linear-gradient(135deg, #ffffff 0%, #4f6aff 100%);
+  min-height: 85vh;
+
+  .productos-titulo-container {
+    display: flex;
+    justify-content: space-between;
+    border-top: #222 solid 3px;
+    border-bottom: #222 solid 3px;
+
+    .productos-titulos {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      gap: 5rem;
+
+      p,
+      a {
+        font-weight: bolder;
+        font-size: 1.5rem;
+      }
+
+      a {
+        color: #222;
+      }
+    }
+
+    img {
+      width: 40rem;
+      height: auto;
+      object-fit: cover;
+    }
+  }
+
+  .accesorios-y-uniones {
+    padding: 1rem 0 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    .accesorios-y-uniones-textos-container {
+      max-width: 70%;
+      font-size: large;
+
+      .accesorios-y-uniones-titulo {
+        font-weight: bolder;
+        font-size: 1.5rem;
+      }
+
+      .accesorios-y-uniones-texto {
+        padding-top: 2rem;
+      }
+
+      .accesorios-y-uniones-fichas-tecnicas-titulo {
+        margin-top: 2rem;
+        text-decoration: underline;
+        font-weight: bolder;
+      }
+
+      li {
+        font-weight: bold;
+        margin-left: 3rem;
+
+        a {
+          color: #222;
+          text-decoration: none;
+        }
+      }
+    }
+
+    .accesorios-y-uniones-imgs-container {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+
+      img {
+        width: 20rem;
+        height: auto;
+      }
+    }
+  }
+
+  .accesorio-funcion-ductil {
+    padding: 1rem 0 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-top: #222 solid 3px;
+    font-size: large;
+    border-bottom: #222 solid 3px;
+
+    .accesorio-funcion-ductil-titulo {
+      font-weight: bolder;
+      font-size: 1.5rem;
+    }
+
+    .accesorio-funcion-ductil-texto {
+      padding-top: 2rem;
+    }
+
+    .accesorios-y-uniones-fichas-tecnicas-titulo {
+      margin-top: 2rem;
+      text-decoration: underline;
+      font-weight: bolder;
+    }
+
+    li {
+      font-weight: bold;
+      margin-left: 3rem;
+
+      a {
+        color: #222;
+        text-decoration: none;
+      }
+    }
+
+    .accesorios-y-uniones-imgs-container {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      gap: 1rem;
+
+      img {
+        width: 12rem;
+        height: auto;
+      }
+    }
+  }
+
+  .accesorio-universal {
+    padding: 1rem 0 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: large;
+    border-bottom: #222 solid 3px;
+
+    .accesorio-universal-titulo {
+      font-weight: bolder;
+      font-size: 1.5rem;
+    }
+
+    .accesorio-universal-texto {
+      padding-top: 2rem;
+    }
+
+    .accesorios-y-uniones-fichas-tecnicas-titulo {
+      margin-top: 2rem;
+      text-decoration: underline;
+      font-weight: bolder;
+    }
+
+    li {
+      font-weight: bold;
+      margin-left: 3rem;
+
+      a {
+        color: #222;
+        text-decoration: none;
+      }
+    }
+
+    .accesorios-y-uniones-imgs-container {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      gap: 1rem;
+      margin-left: 2rem;
+
+      img {
+        width: 12rem;
+        height: auto;
+      }
+    }
+  }
+
+  .bocas-de-riego {
+    padding: 1rem 0 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: large;
+    border-bottom: #222 solid 3px;
+
+    .bocas-de-riego-titulo {
+      font-weight: bolder;
+      font-size: 1.5rem;
+    }
+
+    .bocas-de-riego-texto {
+      padding-top: 2rem;
+    }
+
+    .accesorios-y-uniones-fichas-tecnicas-titulo {
+      margin-top: 2rem;
+      text-decoration: underline;
+      font-weight: bolder;
+    }
+
+    li {
+      font-weight: bold;
+      margin-left: 3rem;
+
+      a {
+        color: #222;
+        text-decoration: none;
+      }
+    }
+
+    .accesorios-y-uniones-imgs-container {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      gap: 1rem;
+      margin-left: 2rem;
+
+      img {
+        width: 12rem;
+        height: auto;
+      }
+    }
+
+    .bocas-de-riego-imgs-container {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      gap: 1rem;
+      margin-left: 2rem;
+
+      img {
+        width: 12rem;
+        height: auto;
+      }
+    }
+  }
+
+  .bridas {
+    padding: 1rem 0 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: large;
+    border-bottom: #222 solid 3px;
+
+    .bridas-titulo {
+      font-weight: bolder;
+      font-size: 1.5rem;
+    }
+
+    .bridas-texto {
+      padding-top: 2rem;
+    }
+
+    .bridas-fichas-tecnicas-titulo {
+      margin-top: 2rem;
+      text-decoration: underline;
+      font-weight: bolder;
+    }
+
+    li {
+      font-weight: bold;
+      margin-left: 3rem;
+
+      a {
+        color: #222;
+        text-decoration: none;
+      }
+    }
+
+    .bridas-imgs-container {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      gap: 1rem;
+      margin-left: 2rem;
+
+      img {
+        width: 12rem;
+        height: auto;
+      }
+    }
+  }
+
+  .carretes-de-desmontaje {
+    padding: 1rem 0 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: large;
+    border-bottom: #222 solid 3px;
+
+    .carretes-de-desmontaje-titulo {
+      font-weight: bolder;
+      font-size: 1.5rem;
+    }
+
+    .carretes-de-desmontaje-text {
+      padding-top: 2rem;
+    }
+
+    .carretes-de-desmontaje-fichas-tecnicas-titulo {
+      margin-top: 2rem;
+      text-decoration: underline;
+      font-weight: bolder;
+    }
+
+    li {
+      font-weight: bold;
+      margin-left: 3rem;
+
+      a {
+        color: #222;
+        text-decoration: none;
+      }
+    }
+
+    .carretes-de-desmontaje-imgs-container {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      gap: 1rem;
+      margin-left: 2rem;
+
+      img {
+        width: 12rem;
+        height: auto;
+      }
+    }
+  }
+
+  .collarines-de-toma {
+    padding: 1rem 0 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: large;
+    border-bottom: #222 solid 3px;
+
+    .collarines-de-toma-titulo {
+      font-weight: bolder;
+      font-size: 1.5rem;
+    }
+
+    .collarines-de-toma-text {
+      padding-top: 2rem;
+    }
+
+    .collarines-de-toma-fichas-tecnicas-titulo {
+      margin-top: 2rem;
+      text-decoration: underline;
+      font-weight: bolder;
+    }
+
+    li {
+      font-weight: bold;
+      margin-left: 3rem;
+
+      a {
+        color: #222;
+        text-decoration: none;
+      }
+    }
+
+    .collarines-de-toma-imgs-container {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      gap: 1rem;
+      margin-left: 2rem;
+
+      img {
+        width: 12rem;
+        height: auto;
+      }
+    }
+  }
+
+  .filtro-en-y {
+    padding: 1rem 0 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: large;
+    border-bottom: #222 solid 3px;
+
+    .filtro-en-y-titulo {
+      font-weight: bolder;
+      font-size: 1.5rem;
+    }
+
+    .filtro-en-y-text {
+      padding-top: 2rem;
+    }
+
+    .filtro-en-y-fichas-tecnicas-titulo {
+      margin-top: 2rem;
+      text-decoration: underline;
+      font-weight: bolder;
+    }
+
+    li {
+      font-weight: bold;
+      margin-left: 3rem;
+
+      a {
+        color: #222;
+        text-decoration: none;
+      }
+    }
+
+    .filtro-en-y-img-container {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      gap: 1rem;
+      margin-left: 2rem;
+
+      img {
+        width: 12rem;
+        height: auto;
+      }
+    }
+  }
+
+  .fitting-de-laton {
+    padding: 1rem 0 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: large;
+    border-bottom: #222 solid 3px;
+
+    .fitting-de-laton-titulo {
+      font-weight: bolder;
+      font-size: 1.5rem;
+    }
+
+    .fitting-de-laton-text {
+      padding-top: 2rem;
+      padding-right: 3rem;
+    }
+
+    .fitting-de-laton-fichas-tecnicas-titulo {
+      margin-top: 2rem;
+      text-decoration: underline;
+      font-weight: bolder;
+    }
+
+    li {
+      font-weight: bold;
+      margin-left: 3rem;
+
+      a {
+        color: #222;
+        text-decoration: none;
+      }
+    }
+
+    .fitting-de-laton-img-container {
+      display: flex;
+      flex-direction: row;
+      rotate: 270deg;
+      flex-wrap: wrap;
+      gap: 1rem;
+      margin: 0 2rem;
+
+      img {
+        width: 12rem;
+        height: auto;
+      }
+    }
+  }
+
+  .manguito-elastico {
+    padding: 1rem 0 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: large;
+    border-bottom: #222 solid 3px;
+
+    .manguito-elastico-titulo {
+      font-weight: bolder;
+      font-size: 1.5rem;
+    }
+
+    .manguito-elastico-text {
+      padding-top: 2rem;
+    }
+
+    .manguito-elastico-fichas-tecnicas-titulo {
+      margin-top: 2rem;
+      text-decoration: underline;
+      font-weight: bolder;
+    }
+
+    li {
+      font-weight: bold;
+      margin-left: 3rem;
+
+      a {
+        color: #222;
+        text-decoration: none;
+      }
+    }
+
+    .manguito-elastico-img-container {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      gap: 1rem;
+      margin-left: 2rem;
+
+      img {
+        width: 12rem;
+        height: auto;
+      }
+    }
+  }
+
+  .sumideros {
+    padding: 1rem 0 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: large;
+    border-bottom: #222 solid 3px;
+
+    .sumideros-titulo {
+      font-weight: bolder;
+      font-size: 1.5rem;
+    }
+
+    .sumideros-text {
+      padding-top: 2rem;
+    }
+
+    .sumideros-fichas-tecnicas-titulo {
+      margin-top: 2rem;
+      text-decoration: underline;
+      font-weight: bolder;
+    }
+
+    li {
+      font-weight: bold;
+      margin-left: 3rem;
+
+      a {
+        color: #222;
+        text-decoration: none;
+      }
+    }
+
+    .sumideros-img-container {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      gap: 1rem;
+      margin-left: 2rem;
+
+      img {
+        width: 12rem;
+        height: auto;
+      }
+    }
+  }
+
+  .trampillones-para-valvulas {
+    padding: 1rem 0 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: large;
+    border-bottom: #222 solid 3px;
+
+    .trampillones-para-valvulas-titulo {
+      font-weight: bolder;
+      font-size: 1.5rem;
+    }
+
+    .trampillones-para-valvulas-text {
+      padding-top: 2rem;
+    }
+
+    .trampillones-para-valvulas-fichas-tecnicas-titulo {
+      margin-top: 2rem;
+      text-decoration: underline;
+      font-weight: bolder;
+    }
+
+    li {
+      font-weight: bold;
+      margin-left: 3rem;
+
+      a {
+        color: #222;
+        text-decoration: none;
+      }
+    }
+
+    .trampillones-para-valvulas-img-container {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      gap: 1rem;
+      margin-left: 2rem;
+
+      img {
+        width: 12rem;
+        height: auto;
+      }
+    }
+  }
+
+  .uniones-gibault {
+    padding: 1rem 0 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: large;
+    border-bottom: #222 solid 3px;
+
+    .uniones-gibault-titulo {
+      font-weight: bolder;
+      font-size: 1.5rem;
+    }
+
+    .uniones-gibault-text {
+      padding-top: 2rem;
+    }
+
+    .uniones-gibault-fichas-tecnicas-titulo {
+      margin-top: 2rem;
+      text-decoration: underline;
+      font-weight: bolder;
+    }
+
+    li {
+      font-weight: bold;
+      margin-left: 3rem;
+
+      a {
+        color: #222;
+        text-decoration: none;
+      }
+    }
+
+    .uniones-gibault-img-container {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      gap: 1rem;
+      margin-left: 2rem;
+
+      img {
+        width: 12rem;
+        height: auto;
+      }
+    }
+  }
+
+  .valvulas-compuerta {
+    padding: 1rem 0 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: large;
+    border-bottom: #222 solid 3px;
+
+    .valvulas-compuerta-titulo {
+      font-weight: bolder;
+      font-size: 1.5rem;
+    }
+
+    .valvulas-compuerta-text {
+      padding-top: 2rem;
+    }
+
+    .valvulas-compuerta-fichas-tecnicas-titulo {
+      margin-top: 2rem;
+      text-decoration: underline;
+      font-weight: bolder;
+    }
+
+    li {
+      font-weight: bold;
+      margin-left: 3rem;
+
+      a {
+        color: #222;
+        text-decoration: none;
+      }
+    }
+
+    .valvulas-compuerta-img-container {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      gap: 1rem;
+      margin-left: 2rem;
+
+      img {
+        width: 12rem;
+        height: auto;
+      }
+    }
+  }
+
+  .valvulas-y-accesorios-de-bronce {
+    padding: 1rem 0 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: large;
+    border-bottom: #222 solid 3px;
+
+    .valvulas-y-accesorios-de-bronce-titulo {
+      font-weight: bolder;
+      font-size: 1.5rem;
+    }
+
+    .valvulas-y-accesorios-de-bronce-text {
+      padding-top: 2rem;
+    }
+
+    .valvulas-y-accesorios-de-bronce-fichas-tecnicas-titulo {
+      margin-top: 2rem;
+      text-decoration: underline;
+      font-weight: bolder;
+    }
+
+    li {
+      font-weight: bold;
+      margin-left: 3rem;
+
+      a {
+        color: #222;
+        text-decoration: none;
+      }
+    }
+
+    .valvulas-y-accesorios-de-bronce-img-container {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      gap: 1rem;
+      margin-left: 2rem;
+
+      img {
+        width: 12rem;
+        height: auto;
+      }
+    }
+  }
+
+  .valvulas-y-accesorios-de-laton {
+    padding: 1rem 0 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: large;
+    border-bottom: #222 solid 3px;
+
+    .valvulas-y-accesorios-de-laton-titulo {
+      font-weight: bolder;
+      font-size: 1.5rem;
+    }
+
+    .valvulas-y-accesorios-de-laton-text {
+      padding-top: 2rem;
+    }
+
+    .valvulas-y-accesorios-de-laton-fichas-tecnicas-titulo {
+      margin-top: 2rem;
+      text-decoration: underline;
+      font-weight: bolder;
+    }
+
+    li {
+      font-weight: bold;
+      margin-left: 3rem;
+
+      a {
+        color: #222;
+        text-decoration: none;
+      }
+    }
+
+    .valvulas-y-accesorios-de-laton-img-container {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      gap: 1rem;
+      margin-left: 2rem;
+
+      img {
+        width: 12rem;
+        height: auto;
+      }
+    }
+  }
+
+  .valvula-de-retencion {
+    padding: 1rem 0 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: large;
+    border-bottom: #222 solid 3px;
+
+    .valvula-de-retencion-titulo {
+      font-weight: bolder;
+      font-size: 1.5rem;
+    }
+
+    .valvula-de-retencion-text {
+      padding-top: 2rem;
+    }
+
+    .valvula-de-retencion-fichas-tecnicas-titulo {
+      margin-top: 2rem;
+      text-decoration: underline;
+      font-weight: bolder;
+    }
+
+    li {
+      font-weight: bold;
+      margin-left: 3rem;
+
+      a {
+        color: #222;
+        text-decoration: none;
+      }
+    }
+
+    .valvula-de-retencion-img-container {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      gap: 1rem;
+      margin-left: 2rem;
+
+      img {
+        width: 12rem;
+        height: auto;
+      }
+    }
+  }
+
+  .abrazadera-de-reparacion {
+    padding: 1rem 0 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: large;
+    border-bottom: #222 solid 3px;
+
+    .abrazadera-de-reparacion-titulo {
+      font-weight: bolder;
+      font-size: 1.5rem;
+    }
+
+    .abrazadera-de-reparacion-text {
+      padding-top: 2rem;
+    }
+
+    .abrazadera-de-reparacion-fichas-tecnicas-titulo {
+      margin-top: 2rem;
+      text-decoration: underline;
+      font-weight: bolder;
+    }
+
+    li {
+      font-weight: bold;
+      margin-left: 3rem;
+
+      a {
+        color: #222;
+        text-decoration: none;
+      }
+    }
+
+    .abrazadera-de-reparacion-img-container {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      gap: 1rem;
+      margin-left: 2rem;
+
+      img {
+        width: 12rem;
+        height: auto;
+      }
+    }
+  }
+
+  .filtros-automaticos-autofilt-de-hydac {
+    padding: 1rem 0 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: large;
+    border-bottom: #222 solid 3px;
+
+    .filtros-automaticos-autofilt-de-hydac-titulo {
+      font-weight: bolder;
+      font-size: 1.5rem;
+    }
+
+    .filtros-automaticos-autofilt-de-hydac-text {
+      padding-top: 2rem;
+    }
+
+    .filtros-automaticos-autofilt-de-hydac-list {
+      li {
+        margin-left: 3rem;
+      }
+    }
+
+    .filtros-automaticos-autofilt-de-hydac-fichas-tecnicas-titulo {
+      margin-top: 2rem;
+      text-decoration: underline;
+      font-weight: bolder;
+    }
+
+    .filtros-automaticos-autofilt-de-hydac-ul {
+      li {
+        font-weight: bold;
+        margin-left: 3rem;
+
+        a {
+          color: #222;
+          text-decoration: none;
+        }
+      }
+    }
+
+    .filtros-automaticos-autofilt-de-hydac-img-container {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      gap: 1rem;
+      margin-left: 2rem;
+
+      img {
+        width: 12rem;
+        height: auto;
+      }
+    }
+  }
+
+  .bombas-y-estaciones-de-bombeo {
+    padding: 1rem 0 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: large;
+    border-bottom: #222 solid 3px;
+
+    .bombas-y-estaciones-de-bombeo-titulo {
+      font-weight: bolder;
+      font-size: 1.5rem;
+    }
+
+    .bombas-y-estaciones-de-bombeo-text {
+      padding-top: 2rem;
+    }
+
+    .bombas-y-estaciones-de-bombeo-fichas-tecnicas-titulo {
+      margin-top: 2rem;
+      text-decoration: underline;
+      font-weight: bolder;
+    }
+
+    li {
+      font-weight: bold;
+      margin-left: 3rem;
+
+      a {
+        color: #222;
+        text-decoration: none;
+      }
+    }
+  }
+
+  .sistemas-de-riego {
+    padding: 1rem 0 2rem;
+    display: flex;
+    flex-direction: column;
+    font-size: large;
+    border-bottom: #222 solid 3px;
+
+    .sistemas-de-riego-texto-container {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+
+      .sistemas-de-riego-titulo {
+        font-weight: bolder;
+        font-size: 1.5rem;
+      }
+
+      .sistemas-de-riego-text {
+        padding-top: 2rem;
+      }
+    }
+
+    .sistemas-de-riego-img-main-container {
+      display: flex;
+      flex-direction: row;
+      gap: 1rem;
+      justify-content: center;
+      margin: 2rem 0;
+
+      img {
+        width: 33%;
+        border-color: #222;
+        border-style: solid;
+      }
+    }
+    .sistemas-de-riego-main-container {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+    }
+
+    .sistemas-de-riego-fichas-tecnicas-titulo {
+      margin-top: 2rem;
+      text-decoration: underline;
+      font-weight: bolder;
+    }
+
+    li {
+      font-weight: bold;
+      margin-left: 3rem;
+
+      a {
+        color: #222;
+        text-decoration: none;
+      }
+    }
+
+    .sistemas-de-riego-img-container {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      gap: 1rem;
+      margin-left: 2rem;
+
+      img {
+        width: 12rem;
+        height: auto;
+      }
+    }
+  }
+
+  .cuadros-electricos {
+    padding: 1rem 0 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: large;
+    border-bottom: #222 solid 3px;
+
+    .cuadros-electricos-titulo {
+      font-weight: bolder;
+      font-size: 1.5rem;
+    }
+
+    .cuadros-electricos-text {
+      padding-top: 2rem;
+    }
+
+    .cuadros-electricos-fichas-tecnicas-titulo {
+      margin-top: 2rem;
+      text-decoration: underline;
+      font-weight: bolder;
+    }
+
+    strong {
+      font-size: larger;
+    }
+
+    li {
+      font-weight: bold;
+      margin-left: 3rem;
+
+      a {
+        color: #222;
+        text-decoration: none;
+      }
+    }
+
+    .cuadros-electricos-img-container {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      gap: 1rem;
+      margin-left: 2rem;
+
+      img {
+        width: 12rem;
+        height: auto;
+      }
+    }
+  }
+}

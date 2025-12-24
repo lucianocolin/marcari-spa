@@ -1,0 +1,123 @@
+.servicio {
+  padding: 1rem 3rem;
+  font-size: large;
+  background: linear-gradient(135deg, #ffffff 0%, #3855f9 100%);
+  height: auto;
+
+  .servicio-text {
+    font-weight: bolder;
+  }
+
+  .servicio-list-container {
+    margin-top: 2rem;
+
+    ul {
+      margin-left: 2rem;
+    }
+  }
+
+  .servicio-imgs-container {
+    display: flex;
+    flex-direction: column;
+    padding: 3rem 0;
+    gap: 4rem;
+
+    .servicio-sistema-img-container {
+      display: flex;
+      justify-content: space-between;
+
+      p {
+        font-size: larger;
+        margin-right: 2rem;
+
+        strong {
+          font-size: 2rem;
+        }
+      }
+
+      img {
+        width: 60rem;
+        height: 30rem;
+        object-fit: cover;
+      }
+    }
+
+    .servicio-fertiirrigacion-img-container {
+      display: flex;
+      justify-content: space-between !important;
+      gap: 2rem;
+
+      img {
+        width: 60rem;
+        height: 50rem;
+        object-fit: cover;
+      }
+
+      p {
+        font-size: larger;
+
+        strong {
+          font-size: 2rem;
+        }
+      }
+    }
+
+    .bombas-img-container {
+      display: flex;
+      justify-content: space-between;
+
+      img {
+        width: 60rem;
+        height: 30rem;
+        object-fit: cover;
+      }
+
+      p {
+        font-size: larger;
+
+        strong {
+          font-size: 2rem;
+        }
+      }
+    }
+
+    .partes-hidraulicas-img-container {
+      display: flex;
+      justify-content: space-between;
+
+      img {
+        width: 60rem;
+        height: 30rem;
+        object-fit: cover;
+        margin-right: 2rem;
+      }
+
+      p {
+        font-size: larger;
+
+        strong {
+          font-size: 2rem;
+        }
+      }
+    }
+
+    .cuadros-img-container {
+      display: flex;
+      justify-content: space-between;
+
+      img {
+        width: 60rem;
+        height: 30rem;
+        object-fit: cover;
+      }
+
+      p {
+        font-size: larger;
+
+        strong {
+          font-size: 2rem;
+        }
+      }
+    }
+  }
+}
