@@ -1,0 +1,24 @@
+.contacto {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 85vh;
+  background: linear-gradient(135deg, #ffffff 0%, #4f6aff 100%);
+  gap: 1rem;
+
+  .contacto-marcari-logo {
+    width: 25rem;
+    height: auto;
+    margin-bottom: 20px;
+    border: 2px solid #4c4cff;
+  }
+
+  .contacto-text {
+    background-color: white;
+    text-align: center;
+    padding: 2rem 6rem;
+    color: #0000ab;
+    border: 2px solid #4c4cff;
+  }
+}
