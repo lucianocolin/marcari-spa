@@ -73,6 +73,7 @@
 
   .nav.open {
     display: flex; /* Se muestra cuando está abierto */
+    background: #fff;
   }
 
   .nav ul {
