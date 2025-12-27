@@ -14,6 +14,12 @@
     ul {
       margin-left: 2rem;
     }
+
+    @media (max-width: 768px) {
+      ul {
+        margin-left: 1rem;
+      }
+    }
   }
 
   .servicio-imgs-container {
@@ -116,6 +122,59 @@
 
         strong {
           font-size: 2rem;
+        }
+      }
+    }
+  }
+
+  @media (max-width: 768px) {
+    .servicio-imgs-container {
+      .servicio-sistema-img-container {
+        flex-direction: column;
+
+        img {
+          width: 100%;
+          height: auto;
+          margin-top: 1rem;
+        }
+      }
+
+      .servicio-fertiirrigacion-img-container {
+        flex-direction: column;
+
+        img {
+          width: 100%;
+          height: auto;
+        }
+      }
+
+      .bombas-img-container {
+        flex-direction: column;
+
+        img {
+          width: 100%;
+          height: auto;
+          margin-top: 1rem;
+        }
+      }
+
+      .partes-hidraulicas-img-container {
+        flex-direction: column;
+
+        img {
+          width: 100%;
+          height: auto;
+          margin-top: 1rem;
+        }
+      }
+
+      .cuadros-img-container {
+        flex-direction: column;
+
+        img {
+          width: 100%;
+          height: auto;
+          margin-top: 1rem;
         }
       }
     }
