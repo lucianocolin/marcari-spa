@@ -21,4 +21,15 @@
     color: #0000ab;
     border: 2px solid #4c4cff;
   }
+
+  @media (max-width: 768px) {
+    .contacto-marcari-logo {
+      width: 15rem;
+    }
+
+    .contacto-text {
+      padding: 1rem 2rem;
+      font-size: 0.9rem;
+    }
+  }
 }
