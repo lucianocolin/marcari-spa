@@ -20,19 +20,29 @@ export default function Navbar() {
       <nav className={`nav ${isOpen ? "open" : ""}`}>
         <ul>
           <li>
-            <Link to="/">INICIO</Link>
+            <Link to="/" onClick={toggleMenu}>
+              INICIO
+            </Link>
           </li>
           <li>
-            <Link to="/quienes-somos">QUIENES SOMOS</Link>
+            <Link to="/quienes-somos" onClick={toggleMenu}>
+              QUIENES SOMOS
+            </Link>
           </li>
           <li>
-            <Link to="/productos">PRODUCTOS</Link>
+            <Link to="/productos" onClick={toggleMenu}>
+              PRODUCTOS
+            </Link>
           </li>
           <li>
-            <Link to="/servicios">SERVICIO</Link>
+            <Link to="/servicios" onClick={toggleMenu}>
+              SERVICIO
+            </Link>
           </li>
           <li>
-            <Link to="/contacto">CONTACTO</Link>
+            <Link to="/contacto" onClick={toggleMenu}>
+              CONTACTO
+            </Link>
           </li>
         </ul>
       </nav>
