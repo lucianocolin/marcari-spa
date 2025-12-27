@@ -30,4 +30,25 @@
       width: 60rem;
     }
   }
+
+  @media (max-width: 768px) {
+    .quienes-somos-text {
+      padding-right: 0;
+    }
+
+    .quienes-somos-middle-container {
+      flex-direction: column-reverse;
+
+      img {
+        width: 100%;
+      }
+
+      .quienes-somos-list {
+        img {
+          width: 100%;
+          height: auto;
+        }
+      }
+    }
+  }
 }
